@@ -1,0 +1,46 @@
+{
+  "name": "@agentopssec/agent-cost-lens",
+  "version": "1.0.0",
+  "description": "Local cost analytics for AI agent workflows.",
+  "type": "module",
+  "homepage": "https://AgentOpsSec.com/projects/agent-cost-lens",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AgentOpsSec/agent-cost-lens.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AgentOpsSec/agent-cost-lens/issues"
+  },
+  "bin": {
+    "agent-cost": "./bin/agent-cost.js"
+  },
+  "files": [
+    "LICENSE",
+    "bin",
+    "src",
+    "README.md",
+    "CHANGELOG.md"
+  ],
+  "scripts": {
+    "test": "node --test",
+    "check": "node --check bin/agent-cost.js && node --test"
+  },
+  "keywords": [
+    "agent",
+    "cost",
+    "tokens",
+    "analytics",
+    "cli"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=20"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "author": {
+    "name": "Aunt Gladys Nephew",
+    "url": "https://auntgladysnephew.com"
+  }
+}
