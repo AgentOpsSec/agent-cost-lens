@@ -12,7 +12,7 @@
     "url": "https://github.com/AgentOpsSec/agent-cost-lens/issues"
   },
   "bin": {
-    "agent-cost": "./bin/agent-cost.js"
+    "agent-cost": "bin/agent-cost.js"
   },
   "files": [
     "LICENSE",
