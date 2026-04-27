@@ -1,5 +1,7 @@
 # Agent Cost Lens
 
+![NPM Downloads](https://img.shields.io/npm/dw/%40agentopssec%2Fagent-cost-lens)
+
 **Know what every AI agent run actually costs.**
 
 Agent Cost Lens tracks token usage, model usage, retries, latency, and estimated
